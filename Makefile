@@ -3,6 +3,7 @@ all:
 
 clean:
 	rm -f bin/*
+	rm -rf .vendor
 
 deps:
 	$(GOPATH)/bin/goop install
